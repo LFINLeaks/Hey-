@@ -1,0 +1,44 @@
+
+<div class="container devices-content">
+
+  <div class="row">
+
+    <div class="col-sm-12 u-txtCenter u-mbm">
+      <p class="txtM u-txtCenter u-txtUpper">{{article.title}}</p>
+      <div class="img-container">
+        <img tyle="vertical-align" class="img-center img-responsive u-mbs" ng-src="{{article.icon}}"/>
+      </div>
+
+      <div ng-repeat="sound in article.sounds">
+
+
+        <sound ng-click="soundCtrl.play(sound.url)"
+        style="
+        background:url({{sound.background}});
+        display:block;
+        min-height: 100px;
+        width: 100%;
+        font-size: 30px;
+        color: #FFF;
+        margin-top: 40px;
+        padding-top: 40px;
+        "
+        >{{sound.title}}</sound>
+
+
+
+
+
+      </div>
+
+
+
+      <p>{{article.content}}</p>
+
+    </div>
+  </div>
+
+
+
+</div> <!-- row -->
+</div>

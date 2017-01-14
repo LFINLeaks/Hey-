@@ -1,0 +1,33 @@
+
+
+
+<div class="container home-body">
+
+  <div class="row">
+
+
+
+    
+
+    <div ng-repeat="article in articles">
+
+      <div class="col-sm-6 u-mbm ">
+        <p class="u-txtL u-txtUpper u-txtCenter">{{article.title}}</p>
+
+        <a href="#/article/{{$index}}">
+          <img class="img-responsive img-center"ng-src="{{article.icon}}" />
+        </a>
+
+        <p>{{article.excerpt}}</p>
+
+      </div>
+    </div>
+
+
+
+
+
+
+  </div> <!-- row -->
+
+</div> <!-- container -->
