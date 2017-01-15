@@ -90,10 +90,12 @@
 
 @import "website/components/button/_buttonDblContent.scss";
 
+@import "website/page/soundboard.scss";
+
 @import "website/page/home.scss";
 @import "website/page/footer.scss";
 @import "website/page/devices.scss";
-
+@import "website/components/_menu.scss";
 @import "base";
 
 @import "header";

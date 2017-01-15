@@ -3,7 +3,6 @@
 * Permet d'ajouter un like
 *
 */
-var audio = null;
 app.directive('sound',function($http){
   return{
     restrict: "E",
@@ -11,8 +10,8 @@ app.directive('sound',function($http){
 
 
       this.play = function(url){
-        if(audio !== null) audio.pause();
-        audio = new Audio(url);
+
+        var audio = new Audio(url);
         console.log(url);
         audio.play();
       };

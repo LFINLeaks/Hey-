@@ -15,31 +15,35 @@
 
 </head>
 
-<body ng-app="myApp">
-
-  <a href="#/">
-    <div class="container-video home-header hidden-xs">
-      <h1>BLOG</h1>
-      <p class="tag-line">little test app</p>
-    </div>
-  </a>
+<a href="#/article/{{$index}}" ng-repeat="article in articles" class="panel clearfix">
+  <span class="panel-inner"></span>
+</a>
 
 
-  <div class="slide-menu menu--sticky menu--ghost hidden-sm hidden-md hidden-lg">
-    <div class="container">
+<body ng-app="myApp" >
 
-      <a href="#/">
-        <p class="h2 u-txtCenter u-txtUpper" style="line-height:60px;">Blog</p>
-      </a>
+  <!-- <a href="#/">
+  <div class="container-video home-header hidden-xs">
+  <h1>BLOG</h1>
+  <p class="tag-line">little test app</p>
+</div>
+</a> -->
 
-    </div>
+
+<div class="slide-menu menu--sticky menu--ghost hidden-sm hidden-md hidden-lg">
+  <div class="container">
+    <a href="#/" ng-show="$scope.home"><img src="img/left-arrow.svg" width="30"/>  </a>
+    <a href="#/">
+      <p class="h2 u-txtCenter u-txtUpper" style="line-height:60px;">HEY !</p>
+    </a>
+
   </div>
-
-  <div class="u-mtl"></div>
-
+</div>
 
 
-  <div id="app-view" ng-view></div>
+
+
+<div id="app-view" style="margin-top:60px;" ng-view></div>
 
 
 

@@ -1,0 +1,28 @@
+.full-bg{
+
+
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+
+}
+
+.hero-space{
+  height: 270px;
+}
+
+sound{
+
+  display:block;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  font-size: 17px;
+  color: #FFF;
+}
+
+.bg-white{background: rgba(255, 255, 255, 0.09);}
+.bg-grey{background: rgba(255, 255, 255, 0.05);}

@@ -1,43 +1,41 @@
 
-<div class="container devices-content">
+<div class="full-bg"
+ng-style="{'background-image':'url({{article.banner}})','background-color': '{{article.bgcolor}}'}"
+>
+
+
+<div class="hero-space"></div>
+<div class="container-fluid">
+
 
   <div class="row">
 
-    <div class="col-sm-12 u-txtCenter u-mbm">
-      <p class="txtM u-txtCenter u-txtUpper">{{article.title}}</p>
-      <div class="img-container">
-        <img tyle="vertical-align" class="img-center img-responsive u-mbs" ng-src="{{article.icon}}"/>
-      </div>
-
-      <div ng-repeat="sound in article.sounds">
+    <div class="col-sm-12 u-pan">
 
 
-        <sound ng-click="soundCtrl.play(sound.url)"
-        style="
-        background:url({{sound.background}});
-        display:block;
-        min-height: 100px;
-        width: 100%;
-        font-size: 30px;
-        color: #FFF;
-        margin-top: 40px;
-        padding-top: 40px;
-        "
+
+      <div ng-repeat="sound in article.sounds" ng-init="outerIndex = $index">
+
+
+        <sound
+        ng-click="soundCtrl.play(sound.url)"
+        ng-class="{ 'bg-white' : outerIndex%2==0, 'bg-grey' : !(outerIndex%2==0)}"
+
+        class="u-pls"
+
         >{{sound.title}}</sound>
 
 
 
-
-
       </div>
 
 
 
-      <p>{{article.content}}</p>
+      <!-- <p>{{article.content}}</p> -->
 
     </div>
   </div>
-
+</div>
 
 
 </div> <!-- row -->

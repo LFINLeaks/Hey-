@@ -1,8 +1,9 @@
-app.controller('ArticlesCtrl', function($scope, Articles){
+app.controller('ArticlesCtrl', function($rootScope, $scope, Articles){
 
+  $scope.home = true;
   $scope.articles = Articles.getArticles();
 
-  console.log($scope.articles);
+
   //$scope.things = JSON.parse(JSON.stringify(posts));
 
 });

@@ -1,33 +1,19 @@
 
 
 
-<div class="container home-body">
+<div class="home-body">
 
-  <div class="row">
+  <a href="#/article/{{$index}}" ng-repeat="article in articles">
+    <div class="panel">
+      <span class="panel-inner"
+      ng-style="{'background-image':'url({{article.banner}})','background-color': '{{article.bgcolor}}'}"
+      >
+      <p class="title">{{article.title}}</p>
+    </span>
 
-
-
-
-
-    <div ng-repeat="article in articles">
-
-      <div class="col-sm-6 u-mbm ">
-        <p class="u-txtL u-txtUpper u-txtCenter">{{article.title}}</p>
-
-        <a href="#/article/{{$index}}">
-          <img class="img-responsive img-center"ng-src="{{article.icon}}" />
-        </a>
-
-        <p>{{article.excerpt}}</p>
-
-      </div>
-    </div>
+  </div>
+</a>
 
 
 
-
-
-
-  </div> <!-- row -->
-
-</div> <!-- container -->
+</div>

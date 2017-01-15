@@ -1,14 +1,14 @@
 {
-  "short_name": "Blog",
-  "name": "Blog",
+  "short_name": "Hey",
+  "name": "Hey",
   "icons": [
     {
-      "src":"images/icon.png",
+      "src":"./img/icon.png",
       "sizes": "192x192",
       "type": "image/png"
     }
   ],
-  "start_url": "",
+  "start_url": "./",
   "background_color": "#8CCCD4",
   "Theme_color": "#8CCCD4",
   "display": "standalone"
