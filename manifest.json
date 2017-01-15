@@ -3,13 +3,13 @@
   "name": "Hey",
   "icons": [
     {
-      "src":"./img/icon.png",
+      "src":"./img/icons/192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     }
   ],
   "start_url": "./",
-  "background_color": "#8CCCD4",
-  "Theme_color": "#8CCCD4",
+  "background_color": "#ffffff",
+  "Theme_color": "#ffffff",
   "display": "standalone"
 }

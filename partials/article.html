@@ -18,23 +18,27 @@ ng-style="{'background-image':'url({{article.banner}})','background-color': '{{a
 
 
         <sound
-        ng-click="soundCtrl.play(sound.url)"
+        ng-click="play(sound.url);"
         ng-class="{ 'bg-white' : outerIndex%2==0, 'bg-grey' : !(outerIndex%2==0)}"
-
         class="u-pls"
+        >{{sound.title}}
+        <div class="equalizer">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+        </div>
+      </sound>
 
-        >{{sound.title}}</sound>
 
-
-
-      </div>
-
-
-
-      <!-- <p>{{article.content}}</p> -->
 
     </div>
+
+
+
+    <!-- <p>{{article.content}}</p> -->
+
   </div>
+</div>
 </div>
 
 

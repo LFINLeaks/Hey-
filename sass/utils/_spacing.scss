@@ -55,3 +55,31 @@
 .u-prs { padding-right: $spacer-s !important }
 .u-prm { padding-right: $spacer-m !important }
 .u-prl { padding-right: $spacer-l !important }
+
+
+/*
+*  Responsive spacing
+*/
+@media only screen and (max-width: 768px){
+
+  // Margin
+  .u-sm-mtm { margin-top: $spacer-m !important }
+  .u-sm-mbm { margin-bottom: $spacer-m !important }
+  .u-sm-mts { margin-top: $spacer-s !important }
+  .u-sm-mbs { margin-bottom: $spacer-s !important }
+
+  .u-sm-mtn { margin-top: 0px!important }
+  .u-sm-mbn { margin-bottom: 0px!important }
+
+  // Padding
+  .u-sm-ptm { padding-top: $spacer-m !important }
+  .u-sm-pbm { padding-bottom: $spacer-m !important }
+  .u-sm-plm { padding-left: $spacer-m !important }
+  .u-sm-prm { padding-right: $spacer-m !important }
+
+  .u-sm-pts { padding-top: $spacer-s !important }
+  .u-sm-pbs { padding-bottom: $spacer-s !important }
+  .u-sm-pls { padding-left: $spacer-s !important }
+  .u-sm-prs { padding-right: $spacer-s !important }
+
+}

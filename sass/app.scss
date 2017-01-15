@@ -90,16 +90,16 @@
 
 @import "website/components/button/_buttonDblContent.scss";
 
-@import "website/page/soundboard.scss";
-
-@import "website/page/home.scss";
-@import "website/page/footer.scss";
-@import "website/page/devices.scss";
+@import "website/page/_soundboard.scss";
+@import "website/components/animation/_equalizer.scss";
+@import "website/page/_home.scss";
+@import "website/page/_footer.scss";
+@import "website/page/_devices.scss";
 @import "website/components/_menu.scss";
 @import "base";
 
 @import "header";
 
-@import "home";
+@import "_home";
 
 @import "albums";

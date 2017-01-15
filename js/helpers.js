@@ -79,3 +79,22 @@ $(".scroll").click(function (event) {
     hashTagActive = this.hash;
   }
 });
+
+
+/**
+* BackShow()
+* Show or Hide the return button
+*/
+
+addEventListener("hashchange", backShow);
+
+backShow();
+
+function backShow(){
+  var btn = $('#back-home');
+  if(window.location.hash !== '#/'){
+    btn.removeClass('hidden');
+  }else{
+    btn.addClass('hidden');
+  }
+}

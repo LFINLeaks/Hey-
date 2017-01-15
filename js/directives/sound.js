@@ -1,25 +1,18 @@
-/**
-*
-* Permet d'ajouter un like
-*
-*/
-var audio = null;
-app.directive('sound',function($http){
+
+app.directive('sound',function(){
   return{
     restrict: "E",
-    controller : function(){
+    link: function($scope,element,attrs) {
 
+      element.bind('click', function(){
+        element.addClass('playing');
 
-      this.play = function(url){
-        if(audio !== null) audio.pause();
-        audio = new Audio(url);
-        console.log(url);
-        audio.play();
-      };
-      //lightaction ng-click="lightCtrl.togglePower(device.id)"
+        setTimeout(function(){
+          element.removeClass('playing');
+        },2000);
 
+      });
     },
-    controllerAs : 'soundCtrl',
 
   };
 });

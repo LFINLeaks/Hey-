@@ -7,11 +7,9 @@ app.factory('Articles', function ($http){
         "icon" : "http://www.returndates.com/backgrounds/siliconvalley.logo.png",
         "banner" : "./img/sv/cover.jpg",
         "bgcolor": "#62C6F4",
-        "excerpt" : "Lorem ipsum dolor sit met, qui at desert mandamus, adduce ullum apeirian mea at",
-        "content": "lorem lorem Lorem ipsum dolor sit met, qui at desert mandamus, adduce ullum apeirian mea at. Eu mel vide saltando vituperata, sonet quidam deterruisset te qui. Te cum vivendum explicate abhorrent. Id venom argumentum vel. Ut lorem bocent hendrerit eam. orem lorem Lorem ipsum dolor sit met, qui at desert mandamus, adduce ullum apeirian mea at. Eu mel vide saltando vituperata, sonet quidam deterruisset te qui. Te cum vivendum explicate abhorrent. Id venom argumentum vel. Ut lorem bocent hendrerit eam. orem lorem Lorem ipsum dolor sit met, qui at desert mandamus, adduce ullum apeirian mea at. Eu mel vide saltando vituperata, sonet quidam deterruisset te qui. Te cum vivendum explicate abhorrent. Id venom argumentum vel. Ut lorem bocent hendrerit eam. orem lorem Lorem ipsum dolor sit met, qui at desert mandamus, adduce ullum apeirian mea at. Eu mel vide saltando vituperata, sonet quidam deterruisset te qui. Te cum vivendum explicate abhorrent. Id venom argumentum vel. Ut lorem bocent hendrerit eam.",
         "sounds" : [
           {
-            "title" : "this is pied piper",
+            "title" : "This is Pied Piper",
             "url" : "./sounds/sv/this-pied-piper.wav",
             "background" : "./img/sv/cover.jpg"
           },
@@ -39,43 +37,11 @@ app.factory('Articles', function ($http){
           },
 
           {
-            "title" : "Lets Pivot",
+            "title" : "Let's Pivot",
             "url" : "./sounds/sv/lets-pivot.mp3",
             "background" : "./img/sv/cover.jpg"
           },
-          {
-            "title" : "this is pied piper",
-            "url" : "./sounds/sv/this-pied-piper.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-          {
-            "title" : "Eat The Fish",
-            "url" : "./sounds/sv/eat-the-fish.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-          {
-            "title" : "Tell something",
-            "url" : "./sounds/sv/tell-something.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
 
-          {
-            "title" : "Aviato !",
-            "url" : "./sounds/sv/aviato.mp3",
-            "background" : "./img/sv/cover.jpg"
-          },
-
-          {
-            "title" : "Clowns",
-            "url" : "./sounds/sv/clowns.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-
-          {
-            "title" : "Lets Pivot",
-            "url" : "./sounds/sv/lets-pivot.mp3",
-            "background" : "./img/sv/cover.jpg"
-          },
         ],
       },
 
@@ -83,8 +49,6 @@ app.factory('Articles', function ($http){
         "title" : 'Les simpsons',
         "banner" : "./img/simpsons/cover.jpg",
         "bgcolor": "#616c0b",
-        "excerpt" : "Lorem ipsum dolor sit met, qui at desert mandamus, adduce ullum apeirian mea at",
-        "content": "lorem lorem Lorem ipsum dolor sit met, qui at desert mandamus, adduce ullum apeirian mea at. Eu mel vide saltando vituperata, sonet quidam deterruisset te qui. Te cum vivendum explicate abhorrent. Id venom argumentum vel. Ut lorem bocent hendrerit eam. orem lorem Lorem ipsum dolor sit met, qui at desert mandamus, adduce ullum apeirian mea at. Eu mel vide saltando vituperata, sonet quidam deterruisset te qui. Te cum vivendum explicate abhorrent. Id venom argumentum vel. Ut lorem bocent hendrerit eam. orem lorem Lorem ipsum dolor sit met, qui at desert mandamus, adduce ullum apeirian mea at. Eu mel vide saltando vituperata, sonet quidam deterruisset te qui. Te cum vivendum explicate abhorrent. Id venom argumentum vel. Ut lorem bocent hendrerit eam. orem lorem Lorem ipsum dolor sit met, qui at desert mandamus, adduce ullum apeirian mea at. Eu mel vide saltando vituperata, sonet quidam deterruisset te qui. Te cum vivendum explicate abhorrent. Id venom argumentum vel. Ut lorem bocent hendrerit eam.",
         "sounds" : [
           {
             "title" : "Dacodac",
@@ -127,9 +91,31 @@ app.factory('Articles', function ($http){
         "title" : 'Breaking bad',
         "banner" : "./img/bb/cover.jpg",
         "bgcolor": "#26a711",
-        "excerpt" : "Lorem ipsum dolor sit met, qui at desert mandamus, adduce ullum apeirian mea at",
-        "content": "lorem lorem Lorem ipsum dolor sit met, qui at desert mandamus, adduce ullum apeirian mea at. Eu mel vide saltando vituperata, sonet quidam deterruisset te qui. Te cum vivendum explicate abhorrent. Id venom argumentum vel. Ut lorem bocent hendrerit eam. orem lorem Lorem ipsum dolor sit met, qui at desert mandamus, adduce ullum apeirian mea at. Eu mel vide saltando vituperata, sonet quidam deterruisset te qui. Te cum vivendum explicate abhorrent. Id venom argumentum vel. Ut lorem bocent hendrerit eam. orem lorem Lorem ipsum dolor sit met, qui at desert mandamus, adduce ullum apeirian mea at. Eu mel vide saltando vituperata, sonet quidam deterruisset te qui. Te cum vivendum explicate abhorrent. Id venom argumentum vel. Ut lorem bocent hendrerit eam. orem lorem Lorem ipsum dolor sit met, qui at desert mandamus, adduce ullum apeirian mea at. Eu mel vide saltando vituperata, sonet quidam deterruisset te qui. Te cum vivendum explicate abhorrent. Id venom argumentum vel. Ut lorem bocent hendrerit eam.",
         "sounds" : [
+          {
+            "title" : "You're god damn right",
+            "url" : "./sounds/bb/You're_god_damn_right.wav",
+          },
+          {
+            "title" : "Don't bullshit a bullshiter",
+            "url" : "./sounds/bb/dbbs.wav",
+          },
+          {
+            "title" : "I'm the danger",
+            "url" : "./sounds/bb/I'm_the_danger.wav",
+          },
+          {
+            "title" : "I'm the one who knocks",
+            "url" : "./sounds/bb/I'm_the_one_who_knocks.wav",
+          },
+          {
+            "title" : "Now say my name",
+            "url" : "./sounds/bb/Now_say_my_name.wav",
+          },
+          {
+            "title" : "Yeah B*tch",
+            "url" : "./sounds/bb/Yeah_Bitch!.wav",
+          },
           {
             "title" : "A man provides",
             "url" : "./sounds/bb/A_man_provides.wav",
@@ -140,132 +126,6 @@ app.factory('Articles', function ($http){
             "url" : "./sounds/bb/Better_Call_Saul.wav",
             "background" : "./img/sv/cover.jpg"
           },
-          {
-            "title" : "Don't bullshit a bullshiter",
-            "url" : "./sounds/bb/dbbs.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-
-          {
-            "title" : "Aviato !",
-            "url" : "./sounds/sv/aviato.mp3",
-            "background" : "./img/sv/cover.jpg"
-          },
-
-          {
-            "title" : "Clowns",
-            "url" : "./sounds/sv/clowns.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-
-          {
-            "title" : "Lets Pivot",
-            "url" : "./sounds/sv/lets-pivot.mp3",
-            "background" : "./img/sv/cover.jpg"
-          },
-          {
-            "title" : "this is pied",
-            "url" : "./sounds/sv/this-pied-piper.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-          {
-            "title" : "Eat The Fish",
-            "url" : "./sounds/sv/eat-the-fish.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-          {
-            "title" : "Tell something",
-            "url" : "./sounds/sv/tell-something.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-
-          {
-            "title" : "Aviato !",
-            "url" : "./sounds/sv/aviato.mp3",
-            "background" : "./img/sv/cover.jpg"
-          },
-
-          {
-            "title" : "Clowns",
-            "url" : "./sounds/sv/clowns.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-
-          {
-            "title" : "Lets Pivot",
-            "url" : "./sounds/sv/lets-pivot.mp3",
-            "background" : "./img/sv/cover.jpg"
-          },
-          {
-            "title" : "this is pied",
-            "url" : "./sounds/sv/this-pied-piper.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-          {
-            "title" : "Eat The Fish",
-            "url" : "./sounds/sv/eat-the-fish.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-          {
-            "title" : "Tell something",
-            "url" : "./sounds/sv/tell-something.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-
-          {
-            "title" : "Aviato !",
-            "url" : "./sounds/sv/aviato.mp3",
-            "background" : "./img/sv/cover.jpg"
-          },
-
-          {
-            "title" : "Clowns",
-            "url" : "./sounds/sv/clowns.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-
-          {
-            "title" : "Lets Pivot",
-            "url" : "./sounds/sv/lets-pivot.mp3",
-            "background" : "./img/sv/cover.jpg"
-          },
-          {
-            "title" : "this is pied",
-            "url" : "./sounds/sv/this-pied-piper.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-          {
-            "title" : "Eat The Fish",
-            "url" : "./sounds/sv/eat-the-fish.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-          {
-            "title" : "Tell something",
-            "url" : "./sounds/sv/tell-something.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-
-          {
-            "title" : "Aviato !",
-            "url" : "./sounds/sv/aviato.mp3",
-            "background" : "./img/sv/cover.jpg"
-          },
-
-          {
-            "title" : "Clowns",
-            "url" : "./sounds/sv/clowns.wav",
-            "background" : "./img/sv/cover.jpg"
-          },
-
-          {
-            "title" : "Lets Pivot",
-            "url" : "./sounds/sv/lets-pivot.mp3",
-            "background" : "./img/sv/cover.jpg"
-          },
-
-
-
-
         ]
       },
       {
