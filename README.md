@@ -4,3 +4,16 @@ Hey is a webApp designed with Angular.js as a Progressive Web App. This app will
 
 
 ![hey app](http://g.recordit.co/M8J32O94c6.gif "hey")
+
+
+## Setup the environment
+
+```
+npm install
+```
+
+## Generate the service worker
+
+```
+gulp generate-service-worker
+```
