@@ -8,8 +8,9 @@ gulp.task('generate-service-worker', function(callback) {
 
   swPrecache.write(path.join('sw.js'), {
     staticFileGlobs: [
-      '**/*.{js,html,css,png,jpg,gif,svg,mp3,wav}',
-      '**/**/*.{js,html,css,png,jpg,gif,svg,mp3,wav}'
+      'index.html',
+      '{css,img,js,libs,partials,sounds}/*.{js,html,css,png,jpg,gif,svg,mp3,wav}',
+      '{css,img,js,libs,partials,sounds}/**/*.{js,html,css,png,jpg,gif,svg,mp3,wav}'
     ],
   }, callback);
 });
